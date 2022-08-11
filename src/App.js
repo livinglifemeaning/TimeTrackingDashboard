@@ -5,7 +5,7 @@ import TimeCards from "./components/TimeCards";
 const App = () => {
   return (
     <main>
-      <Route path="/" exact>
+      <Route path="" exact>
         <Redirect to="/dashboard/weekly" />
       </Route>
       <Route path="/dashboard/:time">
