@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/livinglifemeaning/TimeTrackingDashboard
+- Solution URL: https://github.com/livinglifemeaning/TimeTrackingDashboard/tree/master
 - Live Site URL: https://livinglifemeaning.github.io/TimeTrackingDashboard/
 ### Built with
 
@@ -27,5 +27,5 @@ Users should be able to:
 ### Notes
 - Estimated Time: 3hrs | Actual Time: idk 
 - Spent forever trying to figure out how to use the params to conditionally extract information from the data within App.js bc useParams() only works within the components within <Route>. Ended up just creating seperate TimeCards component to render each TimeCard in there. 
-- https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/ | Use HashRouter for Github
+- https://medium.com/swlh/using-react-router-on-github-pages-2702afdd5d0c | used to get routes to work 
 
