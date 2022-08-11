@@ -1,0 +1,61 @@
+@import '../variables.css'; 
+
+.profileCard{
+    background-color: var(--bg-card);
+    border-radius: 15px;
+    height:  200px; 
+}
+.profileInfo{
+    background-color: var(--profile-blue); 
+    display: flex; 
+    align-items: center;
+    gap: 1rem; 
+    padding: 1.5rem; 
+    border-radius: 10px; 
+}
+
+
+.profileImage{
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    border: solid 4px #fff; 
+}
+
+.profileImage img{
+    width: 100%; 
+    height: 100%; 
+}
+
+.profileText p{
+    margin: 0; 
+}
+
+.report{
+    color: var(--text); 
+    font-size: 0.9rem; 
+}
+
+.name{
+    font-size: 1.4rem; 
+    font-weight: 300;  
+    color: #fff;  
+}
+
+@media (min-width: 700px) {
+    .profileCard{
+        height: 410px; 
+        max-width: 200px;  
+    }
+
+    .profileInfo{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .name{
+        font-size: 2rem; 
+        padding-top: .4rem; 
+        padding-bottom: 1.5rem; 
+    }
+}

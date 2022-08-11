@@ -1,0 +1,62 @@
+@import '../variables.css'; 
+
+.photo{
+    display: flex; 
+    justify-content: flex-end;
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px;
+    height: 50px; 
+}
+
+.photo img{
+    width: 50px; 
+    transform: translate(-10px, 0px);
+}
+.text{
+    background-color: var(--bg-card); 
+    border-radius: 15px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center;
+    gap: .5rem;  
+    padding: 1.5rem;
+    transform: translateY(-10px);
+}
+.text:hover{
+    cursor: pointer;
+    background-color:hsl(235, 46%, 30%);
+}
+.text div{
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    align-items: center; 
+    align-content: flex-end; 
+}
+.title{
+    font-weight: 500;  
+}
+
+.hours{
+    font-size: 1.8rem; 
+    font-weight: 300; 
+    margin: 0; 
+}
+
+.prevTime{
+    font-size: .8rem; 
+    color: var(--text)
+}
+
+@media (min-width: 700px) {
+    .text .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .5rem; 
+    }
+
+    .hours{
+        font-size: 3rem; 
+    }
+}
